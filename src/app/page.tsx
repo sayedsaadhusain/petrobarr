@@ -152,7 +152,7 @@ export default function Home() {
                     <motion.input
                       type="number"
                       name={field}
-                      placeholder="Enter amount in USD"
+                      placeholder="Amount"
                       className="w-full p-3 pl-14 rounded-xl border border-purple-300 focus:ring-2 focus:ring-purple-400 outline-none bg-white/95 placeholder-purple-400 text-gray-800 transition-all"
                       whileFocus={{ scale: 1.02 }}
                     />
